@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alax Aung JawJaw</title>
+    <link rel="shortcut icon" type="image/png" sizes="16x16" href="img/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,700&family=Titillium+Web&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/logoAlax.png" alt="the logo"></a>
+        </div>
+
+        <!-- <a href="javascript" class="toggle-btn" id="dark-mode">
+        <i class="fa-solid fa-moon"></i>
+        </a> -->
+
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item"><a href="index.html" class="nav__link">HOME</a></li>
+
+            <li class="nav__item"><a href="index.html#skills" class="nav__link">Skills</a></li>
+
+            <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+
+            <li class="nav__item"><a href="index.html#work" class="nav__link">My Works</a></li>
+
+            <li><a href="resume/Aung Kyaw Kyaw Alax (Resume) .pdf" class="nav__link" id="resume">Resume</a></li>
+        </ul>
+        
+    </nav>
+    </header>
+
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro" id="intro">Drum Machine</h1>
+        <br>
+        <p class="section__subtitle section__subtitle--intro">with the mix of CSS, JavaScript (Babel) and React.js</p><img src="img/portfolio-item-img/Drums Pad.png" alt="a picture of a weather app" class="intro__img"/>
+        <p>The Drum Machine with different visible sounds keyword buttons that plays the sound-effect once clicked and,<br>displayed a name of the keyword button which has been clicked.
+        </p>
+    </section>
+
+    
+
+    <div class="portfolio-item-individual">
+        <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="js,result" data-slug-hash="OJzRBoj" data-user="aung-kyaw-kyaw-alax" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+            <span>See the Pen <a href="https://codepen.io/aung-kyaw-kyaw-alax/pen/OJzRBoj">
+            Drum Machine (freeCodeCamp)</a> by Aung Kyaw Kyaw Alax (<a href="https://codepen.io/aung-kyaw-kyaw-alax">@aung-kyaw-kyaw-alax</a>)
+            on <a href="https://codepen.io">CodePen</a>.</span>
+          </p>
+          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+          
+          <ul>
+              <li>The drum machine pad that has 9 keywords with 9 alphabets as their names which displayed as the clickable buttons.</li>
+              <li>The buttons, drum machine pad and it's performance effects are created by using React.js and styling for visuals with CSS.</li>
+              <li>The HTML5 audio element with src for audio file are linked and created. Once  a keyword in the pad is clicked, a corresponding audio file will be triggered</li>
+              <li>Then, the associated name of the clicked keyword's name will be displayed as string at the top of container which engineered with React.js functions and methods.</li>
+              <li>In the name time, when user clicks another keyword additionally, the next clicked keyword audio file will be triggered and it's name will be displayed as a replaced new string from previous one.</li>
+          </ul>
+
+    </div>
+
+
+
+
+
+
+    <!-- footer -->
+    <footer class="footer">
+        <!-- Scroll to top button -->
+  <button id="scrollToTopBtn"><i class="fa-solid fa-arrow-up"></i></button>
+        <!-- replace with own email address -->
+        <p>Say hello here: &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-hand-point-down"></i></p>
+        <a href="mailto:alax54321@gmail.com" class="footer__link">
+            <i class="fa-solid fa-envelope"></i>
+            <br> 
+            alax54321@gmail.com</a>
+
+        <ul class="social-list">
+            <li class="social-list">
+                <a class="social-list__link" href="https://dribbble.com/AungKyawKy">
+                    <i class="fa-brands fa-dribbble"></i>
+                </a>
+            </li>
+
+            <li class="social-list">
+                <a class="social-list__link" href="https://www.linkedin.com/in/alax-aung-kyaw-kyaw-0115081b9/">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>    
+
+            <li class="social-list">
+                <a class="social-list__link" href="https://codepen.io/aung-kyaw-kyaw-alax">
+                    <i class="fa-brands fa-codepen"></i>
+                </a>
+            </li>
+
+            <li class="social-list">
+                <a class="social-list__link" href="https://github.com/AlaxAungJaw">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
