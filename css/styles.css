@@ -271,8 +271,13 @@ header {
     transform: translateZ(10px)
     rotateX(20deg) rotateY(30deg);
     transition: transform .5s;
-    cursor: pointer;
 }
+
+/* #aboutme_img {
+    transform: translateZ(10px)
+    rotateX(20deg) rotateY(30deg);
+    transition: transform .5s;
+} */
 
 .intro__img {
     box-shadow: var(--bs);
